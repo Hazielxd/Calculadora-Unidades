@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora Unidades</title>
+</head>
+<body>
+    <h1 id="titulo">Calculadora</h1>
+    <div id="Long">
+        <label for="">Longitud</label>
+        <input type="number" id="longitudEntrada" class="unos">
+        <label for="longitudDesde"></label>
+        <select name="Unidades" id="longitudDesde">
+            <option value="km">Kilometro</option>
+            <option value="m">Metro</option>
+            <option value="cm">Centimetro</option>
+            <option value="mi">Milla</option>
+            <option value="y">Yarda</option>
+            <option value="ft">Pie</option>
+            <option value="in">Pulgada</option>
+        </select>
+        <label for="">A</label>
+        <label for="longitudHasta"></label>
+        <select name="Unidades" id="longitudHasta">
+            <option value="km">Kilometro</option>
+            <option value="m">Metro</option>
+            <option value="cm">Centimetro</option>
+            <option value="mi">Milla</option>
+            <option value="y">Yarda</option>
+            <option value="ft">Pie</option>
+            <option value="in">Pulgada</option>
+        </select>
+        <input disabled type="text" id="longitudResultado" class="unos">
+        <button onclick="convertirLongitud()">Convertir</button>
+        <button onclick="limpiarCampos('longitudEntrada', 'longitudResultado')">Limpiar</button>
+    </div>
+    <div id="Mas">
+        <label for="">Masas</label>
+        <input type="number" id="masaEntrada" class="unos">
+        <label for="masaDesde"></label>
+        <select name="Unidades" id="masaDesde">
+            <option value="to">Tonelada</option>
+            <option value="kg">Kilogramo</option>
+            <option value="gr">Gramo</option>
+            <option value="migr">Miligramo</option>
+            <option value="lb">Libra</option>
+            <option value="onz">Onza</option>
+        </select>
+        <label for="">A</label>
+        <label for="masaHasta"></label>
+        <select name="Unidades" id="masaHasta">
+            <option value="to">Tonelada</option>
+            <option value="kg">Kilogramo</option>
+            <option value="gr">Gramo</option>
+            <option value="migr">Miligramo</option>
+            <option value="lb">Libra</option>
+            <option value="onz">Onza</option>
+        </select>
+        <input disabled type="text" id="masaResultado" class="unos">
+        <button onclick="convertirMasa()">Convertir</button>
+        <button onclick="limpiarCampos('masaEntrada', 'masaResultado')">Limpiar</button>
+    </div>
+    <div id="Veloc">
+        <label for="">Velocidad</label>
+        <input type="number" id="velocidadEntrada" class="unos">
+        <label for="velocidadDesde"></label>
+        <select name="Unidades" id="velocidadDesde">
+            <option value="mph">Millas Por Hora</option>
+            <option value="mps">Millas Por Segundo</option>
+            <option value="kph">Km Por Hora</option>
+            <option value="kps">Km Por Segundo</option>
+            <option value="kt">Nudo</option>
+            <option value="mph">Metros Por Hora</option>
+            <option value="mps">Metros Por Segundo</option>
+        </select>
+        <label for="">A</label>
+        <label for="velocidadHasta"></label>
+        <select name="Unidades" id="velocidadHasta">
+            <option value="mph">Millas Por Hora</option>
+            <option value="mps">Millas Por Segundo</option>
+            <option value="kph">Km Por Hora</option>
+            <option value="kps">Km Por Segundo</option>
+            <option value="kt">Nudo</option>
+            <option value="mph">Metros Por Hora</option>
+            <option value="mps">Metros Por Segundo</option>
+        </select>
+        <input disabled type="text" id="velocidadResultado" class="unos">
+        <button onclick="convertirVelocidad()">Convertir</button>
+        <button onclick="limpiarCampos('velocidadEntrada', 'velocidadResultado')">Limpiar</button>
+    </div>
+</body>
+<script src="/script.js"></script>
+</html>

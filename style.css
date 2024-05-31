@@ -1,0 +1,77 @@
+body{
+    background-image: url(https://c8.alamy.com/compes/2dc4w74/patron-sin-costuras-formulas-matematicas-dibujadas-a-mano-y-signos-aislados-sobre-fondo-negro-educacion-vectorial-e-ilustracion-cientifica-2dc4w74.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh; 
+    width: 100%;
+    
+}
+#titulo{
+    margin-left: 60PX;
+    font-size: 120px;
+    color: green;
+    text-align: right;
+    margin-right: 50px;
+    border-bottom: 2px solid #00ff00;
+    display: inline-block;
+    font-family: 'chiller', sans-serif;
+    margin-top: 300PX;
+    width: 400px;
+}
+
+
+#Long{
+    width: 400px;
+    margin-left: 700px;           
+    height: 160px;
+    border: 5px #00ff00 solid;
+    color: green;
+    background-color: black;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transform: scale(1.1);
+    font-size: 20px;
+    margin-top: -435px;
+}
+
+#Mas{
+    margin-top: 50px;
+    width: 400px;
+    margin-left: 700px;           
+    height: 160px;
+    border: 5px #00ff00 solid;
+    color: green;
+    background-color: black;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transform: scale(1.1);
+    font-size: 20px;
+}
+
+#Veloc{
+    margin-top: 50px;
+    width: 400px;
+    margin-left: 700px;           
+    height: 160px;
+    border: 5px #00ff00 solid;
+    color: green;
+    background-color: black;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transform: scale(1.1);
+    font-size: 20px;
+}
+
+.unos{
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#unid{
+    margin-top: 20px;
+    color: black;
+    font-size: 20px;
+}
+
